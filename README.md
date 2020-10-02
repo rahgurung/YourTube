@@ -28,3 +28,7 @@ npm run build
 ```
 
 Both commands will create a `dist/` directory, it will contain the built files that should be loaded into the browser or packed.
+
+## Contributing
+
+Contributions are welcome, feel free to create an issue with your feature idea or just resolve any available issues. The guide for creating a new feature is available [here](https://github.com/gurrrung/YourTube/blob/master/CONTRIBUTING.md).
