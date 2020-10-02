@@ -1,9 +1,6 @@
-export default function () {
-	var likeDislikeElements = $('yt-formatted-string.style-scope.ytd-toggle-button-renderer.style-text');
+import elementReady from 'element-ready';
 
-	$(function () {
-		likeDislikeElements.hide();
-	})
-	console.log(likeDislikeElements)
-	// likeDislikeElements.hide();
+export default async function () {
+    await elementReady('yt-formatted-string.style-scope.ytd-toggle-button-renderer.style-text');
+    $('yt-formatted-string.style-scope.ytd-toggle-button-renderer.style-text').hide();
 }

@@ -1,10 +1,8 @@
 import OptionsSync from 'webext-options-sync';
 
-import { featuresDefaultValues } from './features';
+import {featuresDefaultValues} from './features';
 
 const optionsSync = new OptionsSync();
-
-console.log("helo")
 
 // Define defaults
 optionsSync.define({

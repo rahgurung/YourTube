@@ -4,7 +4,7 @@
   "description": "Youtube should be productive",
   "main": "index.js",
   "scripts": {
-    "lint": "xo && stylelint source/**/*.css",
+    "lint": "xo && stylelint src/**/*.css",
     "test": "npm run lint && ava && npm run build",
     "build": "rm -r dist && webpack --mode=production",
     "watch": "webpack --mode=development --watch",
@@ -64,7 +64,8 @@
     },
     "globals": [
       "browser"
-    ]
+    ],
+    "space": 4
   },
   "ava": {
     "files": [

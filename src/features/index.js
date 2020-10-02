@@ -7,9 +7,8 @@ export const features = {
         id: 'feature-hide-likes',
         category: 'video',
         label: 'Hide the number of likes',
-        fn: require('./hide-likes').default,
-        hidden: true
-    },
+        fn: require('./hide-likes').default
+    }
 };
 
 export const featuresArray = sortBy(Object.values(features), ['category', 'label']);

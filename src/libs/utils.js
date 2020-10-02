@@ -1,5 +1,3 @@
-import { h } from 'dom-chef';
-import select from 'select-dom';
 import elementReady from 'element-ready';
 import domLoaded from 'dom-loaded';
 import OptionsSync from 'webext-options-sync';
@@ -12,12 +10,12 @@ const optionsPromise = new OptionsSync().getAll();
  * Prevent fn's errors from blocking the remaining tasks.
  * https://github.com/sindresorhus/refined-github/issues/678
  */
-export const enableFeature = async ({ fn, id: _featureId = fn.name }) => {
+export const enableFeature = async ({fn, id: _featureId = fn.name}) => {
     if (!options) {
         options = await optionsPromise;
     }
 
-    const { logging = false } = options;
+    const {logging = false} = options;
     const log = logging ? console.log : () => { };
 
     const featureId = _featureId.replace(/_/g, '-');
@@ -39,24 +37,6 @@ export const enableFeature = async ({ fn, id: _featureId = fn.name }) => {
     }
 };
 
-export const observeEl = (el, listener, options = { childList: true }) => {
-    if (typeof el === 'string') {
-        el = select(el);
-    }
-
-    if (!el) {
-        return;
-    }
-
-    // Run first
-    listener([]);
-
-    // Run on updates
-    const observer = new MutationObserver(listener);
-    observer.observe(el, options);
-    return observer;
-};
-
 /**
  * Automatically stops checking for an element to appear once the DOM is ready.
  */
@@ -68,20 +48,4 @@ export const safeElementReady = selector => {
 
     // If cancelled, return null like a regular select() would
     return waiting.catch(() => null);
-};
-
-export const getFromLocalStorage = value => {
-    try {
-        return browser.storage.local.get(value);
-    } catch (error) {
-        console.error(`Error while fetching ${value ? JSON.stringify(value, null, '\t') : 'everything'}: ${error}`);
-    }
-};
-
-export const setToLocalStorage = async value => {
-    try {
-        await browser.storage.local.set(value);
-    } catch (error) {
-        console.error(`Error in storing ${JSON.stringify(value, null, '\t')} to local storage: ${error}`);
-    }
 };
