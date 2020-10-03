@@ -4,5 +4,6 @@ export default async function () {
     await elementReady('yt-formatted-string.style-scope.ytd-toggle-button-renderer.style-text');
     await elementReady('ytd-sentiment-bar-renderer.style-scope.ytd-video-primary-info-renderer');
     $('yt-formatted-string.style-scope.ytd-toggle-button-renderer.style-text').hide();
+    $('yt-formatted-string.style-scope.ytd-toggle-button-renderer.style-default-active').hide();
     $('ytd-sentiment-bar-renderer.style-scope.ytd-video-primary-info-renderer').hide();
 }
