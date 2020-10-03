@@ -2,6 +2,14 @@ import groupBy from 'lodash.groupby';
 import sortBy from 'lodash.sortby';
 
 export const features = {
+    /* GENERAL */
+    collapseSidebar: {
+        id: 'feature-collapse-sidebar',
+        category: 'general',
+        label: 'Keeps the sidebar collapsed by default',
+        fn: require('./collapse-sidebar').default
+    },
+
     /* VIDEO */
     hideLikes: {
         id: 'feature-hide-likes',

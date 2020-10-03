@@ -24,6 +24,10 @@ function onVideoChange(cb) {
 }
 
 function onDomReady() {
+    enableFeature(features.hideLikes);
+    enableFeature(features.hideComments);
+    enableFeature(features.expandDescription);
+    enableFeature(features.collapseSidebar);
     onVideoChange(() => {
         enableFeature(features.hideLikes);
         enableFeature(features.hideComments);
