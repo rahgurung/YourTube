@@ -31,4 +31,6 @@ Both commands will create a `dist/` directory, it will contain the built files t
 
 ## Contributing
 
+### Note: We can accept outside contributors only after 5 Oct as this project is being submitted to a hackathon.
+
 Contributions are welcome, feel free to create an issue with your feature idea or just resolve any available issues. The guide for creating a new feature is available [here](https://github.com/gurrrung/YourTube/blob/master/CONTRIBUTING.md).
