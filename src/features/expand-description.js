@@ -1,5 +1,4 @@
 import elementReady from 'element-ready';
-import { escapeSelector } from 'jquery';
 
 export default async function () {
     await elementReady('paper-button#more');
