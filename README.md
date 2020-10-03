@@ -1,5 +1,8 @@
 <p align="center"><img src="https://www.flaticon.com/svg/static/icons/svg/3039/3039386.svg" align="center" width="175"></p>
 <h1 align="center">YourTube</h1>
+<p align="center">
+<img src="https://github.com/gurrrung/YourTube/workflows/YourTube/badge.svg" align="center">
+</p>
 
 ## Introduction
 
