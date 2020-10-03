@@ -1,8 +1,8 @@
 import elementReady from 'element-ready';
 
 export default async function () {
-    await elementReady('paper-button#more');
-    await elementReady('paper-button#less');
-    $('paper-button#more').trigger('click');
-    $('paper-button#less').hide();
+    await elementReady('yt-formatted-string.more-button.style-scope.ytd-video-secondary-info-renderer');
+    await elementReady('paper-button#less.style-scope.ytd-expander');
+    $('yt-formatted-string.more-button.style-scope.ytd-video-secondary-info-renderer').trigger('click');
+    $('paper-button#less.style-scope.ytd-expander').hide();
 }

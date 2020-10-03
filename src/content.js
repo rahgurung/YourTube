@@ -2,7 +2,8 @@ import domLoaded from 'dom-loaded';
 
 import {
     enableFeature,
-    safeElementReady
+    safeElementReady,
+    observeElement
 } from './libs/utils';
 
 import {autoInitFeatures, features} from './features';
@@ -18,10 +19,17 @@ async function init() {
     onDomReady();
 }
 
+function onVideoChange(cb) {
+    observeElement('#meta.style-scope.ytd-watch-flexy', cb, {attributes: true, subtree: true});
+}
+
 function onDomReady() {
-    enableFeature(features.hideLikes);
-    enableFeature(features.hideComments);
-    enableFeature(features.expandDescription);
+    
+    onVideoChange(() => {
+        enableFeature(features.hideLikes);
+        enableFeature(features.hideComments);
+        enableFeature(features.expandDescription);    
+    })
 }
 
 init();

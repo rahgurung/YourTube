@@ -1,6 +1,7 @@
 import elementReady from 'element-ready';
 import domLoaded from 'dom-loaded';
 import OptionsSync from 'webext-options-sync';
+import select from 'select-dom';
 
 let options;
 const optionsPromise = new OptionsSync().getAll();
@@ -48,4 +49,25 @@ export const safeElementReady = selector => {
 
     // If cancelled, return null like a regular select() would
     return waiting.catch(() => null);
+};
+
+/**
+ * Observe changes in an element
+ */
+export const observeElement = (el, listener, options = {childList: true}) => {
+	if (typeof el === 'string') {
+		el = select(el);
+	}
+
+	if (!el) {
+		return;
+	}
+
+	// Run first
+	listener([]);
+
+	// Run on updates
+	const observer = new MutationObserver(listener);
+	observer.observe(el, options);
+	return observer;
 };
