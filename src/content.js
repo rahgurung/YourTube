@@ -21,8 +21,8 @@ async function init() {
 }
 
 async function onVideoChange(cb) {
-    await elementReady('#player-theater-container');
-    observeElement('#player-theater-container', cb, {attributes: true, subtree: true});
+    await elementReady('ytd-watch-flexy.style-scope.ytd-page-manager.hide-skeleton');
+    observeElement('ytd-watch-flexy.style-scope.ytd-page-manager.hide-skeleton', cb, {attributes: true, subtree: true});
 }
 
 function onDomReady() {
