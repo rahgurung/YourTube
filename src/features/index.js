@@ -22,6 +22,12 @@ export const features = {
         category: 'video',
         label: 'Hide the comments',
         fn: require('./hide-comments').default
+    },
+    expandDescription: {
+        id: 'feature-expand-description',
+        category: 'video',
+        label: 'Expand the description always',
+        fn: require('./expand-description').default
     }
 };
 
