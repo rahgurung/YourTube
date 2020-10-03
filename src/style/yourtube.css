@@ -1,0 +1,5 @@
+/* Ads hider */
+
+.ytd-promoted-sparkles-text-search-renderer, .ytd-display-ad-renderer, #player-ads, #ticket-shelf, #merch-shelf {
+    display: none !important;
+}
