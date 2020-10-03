@@ -8,6 +8,12 @@ export const features = {
         category: 'video',
         label: 'Hide the number of likes',
         fn: require('./hide-likes').default
+    },
+    hideComments: {
+        id: 'feature-hide-comments',
+        category: 'video',
+        label: 'Hide the comments',
+        fn: require('./hide-comments').default
     }
 };
 

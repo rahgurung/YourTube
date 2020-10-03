@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "xo && stylelint src/**/*.css",
     "test": "npm run lint && ava && npm run build",
-    "build": "rm -r dist && webpack --mode=production",
+    "build": "webpack --mode=production",
     "watch": "webpack --mode=development --watch",
     "release:cws": "cd dist && webstore upload --auto-publish",
     "release": "run-s build update-version release:cws",
