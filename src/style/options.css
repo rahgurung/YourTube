@@ -1,9 +1,8 @@
 body {
-    width: 400px;
     margin: 14px 17px;
     /* Chrome default, match for Firefox  */
     font-family: sans-serif;
-    /* width: 96%; */
+    width: 96%;
     text-align: center;
     position: absolute;
     top: 50%;
