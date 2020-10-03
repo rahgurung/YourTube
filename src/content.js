@@ -1,4 +1,5 @@
 import domLoaded from 'dom-loaded';
+import elementReady from 'element-ready';
 
 import {
     enableFeature,
@@ -19,8 +20,9 @@ async function init() {
     onDomReady();
 }
 
-function onVideoChange(cb) {
-    observeElement('#meta.style-scope.ytd-watch-flexy', cb, {attributes: true, subtree: true});
+async function onVideoChange(cb) {
+    await elementReady('#player-theater-container');
+    observeElement('#player-theater-container', cb, {attributes: true, subtree: true});
 }
 
 function onDomReady() {
