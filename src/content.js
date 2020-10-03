@@ -21,6 +21,7 @@ async function init() {
 function onDomReady() {
     enableFeature(features.hideLikes);
     enableFeature(features.hideComments);
+    enableFeature(features.expandDescription);
 }
 
 init();
