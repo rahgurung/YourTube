@@ -55,19 +55,19 @@ export const safeElementReady = selector => {
  * Observe changes in an element
  */
 export const observeElement = (el, listener, options = {childList: true}) => {
-	if (typeof el === 'string') {
-		el = select(el);
-	}
+    if (typeof el === 'string') {
+        el = select(el);
+    }
 
-	if (!el) {
-		return;
-	}
+    if (!el) {
+        return;
+    }
 
-	// Run first
-	listener([]);
+    // Run first
+    listener([]);
 
-	// Run on updates
-	const observer = new MutationObserver(listener);
-	observer.observe(el, options);
-	return observer;
+    // Run on updates
+    const observer = new MutationObserver(listener);
+    observer.observe(el, options);
+    return observer;
 };

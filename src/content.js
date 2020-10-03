@@ -24,12 +24,11 @@ function onVideoChange(cb) {
 }
 
 function onDomReady() {
-    
     onVideoChange(() => {
         enableFeature(features.hideLikes);
         enableFeature(features.hideComments);
-        enableFeature(features.expandDescription);    
-    })
+        enableFeature(features.expandDescription);
+    });
 }
 
 init();
