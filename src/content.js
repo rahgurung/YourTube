@@ -36,6 +36,7 @@ function onDomReady() {
         enableFeature(features.hideComments);
         enableFeature(features.expandDescription);
         enableFeature(features.hideAutoplay);
+        enableFeature(features.hideSuggestions);
     });
 }
 
