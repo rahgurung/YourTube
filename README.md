@@ -10,11 +10,31 @@ The truth is YouTube is designed to make anyone binge-watch it all day. We want 
 
 ## Usage
 1) Install the extension
-2) Customize the extension using the `Options` menu.
+2) Customize the extension using the `Customize` menu.
 
 ## Installation
 
 Coming Soon
+
+## Highlights
+GENERAL
+- Keep the sidebar collapsed by default (@gurrrung)
+- Hide boosted videos in search results (by @gurrrung)
+
+VIDEO
+- Make sure that the AutoPlay is disabled by default always (by @gurrrung)
+- Hide AutoPlay button (@gurrrung)
+- Hide all suggestions (@iamsahil1910)
+- Hide likes (@gurrrung )
+- Hide comments (@iamsahil1910)
+- Expand the description of videos by default with no Show More/Show Less button. ( #13 ) ( @iamsahil1910 and @gurrrung)
+
+HOMEPAGE
+- Make the homepage a simple landing page like Google.com ( #16 )
+
+CHANNEL
+- Remove featured channels (@iamsahil1910)
+
 
 ## Development
 
