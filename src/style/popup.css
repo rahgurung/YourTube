@@ -118,3 +118,8 @@ a {
     text-decoration: none;
     color: #000;
 }
+
+.title-yourtube {
+    font-size: 40px;
+    padding-bottom: 25px;
+}
