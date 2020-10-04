@@ -34,6 +34,12 @@ export const features = {
         category: 'video',
         label: 'Disable the autoplay and hides it',
         fn: require('./hide-autoplay').default
+    },
+    hideSuggestions: {
+        id: 'feature-hide-suggestions',
+        category: 'video',
+        label: 'Hide suggested videos',
+        fn: require('./hide-suggestions').default
     }
 };
 
