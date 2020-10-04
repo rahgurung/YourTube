@@ -28,6 +28,12 @@ export const features = {
         category: 'video',
         label: 'Expand the description always',
         fn: require('./expand-description').default
+    },
+    hideAutoplay: {
+        id: 'feature-hide-autoplay',
+        category: 'video',
+        label: 'Disable the autoplay and hides it',
+        fn: require('./hide-autoplay').default
     }
 };
 
