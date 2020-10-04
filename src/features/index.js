@@ -40,6 +40,12 @@ export const features = {
         category: 'video',
         label: 'Hide suggested videos',
         fn: require('./hide-suggestions').default
+    },
+    hideFeaturedChannels: {
+        id: 'feature-hide-featured-channels',
+        category: 'channel',
+        label: 'Hide featured channel to subscribe',
+        fn: require('./hide-featured-channels').default
     }
 };
 

@@ -31,6 +31,7 @@ function onDomReady() {
     enableFeature(features.expandDescription);
     enableFeature(features.collapseSidebar);
     enableFeature(features.hideSuggestions);
+    enableFeature(features.hideFeaturedChannels);
     onVideoChange(() => {
         enableFeature(features.hideLikes);
         enableFeature(features.hideComments);
