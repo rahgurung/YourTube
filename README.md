@@ -18,22 +18,22 @@ Coming Soon
 
 ## Highlights
 GENERAL
-- Keep the sidebar collapsed by default (@gurrrung)
-- Hide boosted videos in search results (by @gurrrung)
+- Keep the sidebar collapsed by default ([@gurrrung](https://github.com/gurrrung))
+- Hide boosted videos in search results ([@iamsahil1910](https://github.com/iamsahil1910))
 
 VIDEO
-- Make sure that the AutoPlay is disabled by default always (by @gurrrung)
-- Hide AutoPlay button (@gurrrung)
-- Hide all suggestions (@iamsahil1910)
-- Hide likes (@gurrrung )
-- Hide comments (@iamsahil1910)
-- Expand the description of videos by default with no Show More/Show Less button. ( #13 ) ( @iamsahil1910 and @gurrrung)
+- Make sure that the AutoPlay is disabled by default always ([@gurrrung](https://github.com/gurrrung))
+- Hide AutoPlay button ([@gurrrung](https://github.com/gurrrung))
+- Hide all suggestions ([@iamsahil1910](https://github.com/iamsahil1910))
+- Hide likes ([@gurrrung](https://github.com/gurrrung))
+- Hide comments ([@iamsahil1910](https://github.com/iamsahil1910))
+- Expand the description of videos by default with no Show More/Show Less button. ([@iamsahil1910](https://github.com/iamsahil1910) and [@gurrrung](https://github.com/gurrrung))
 
 HOMEPAGE
-- Make the homepage a simple landing page like Google.com ( #16 )
+- Make the homepage a simple landing page like Google. ([#16](https://github.com/gurrrung/YourTube/issues/16))
 
 CHANNEL
-- Remove featured channels (@iamsahil1910)
+- Remove featured channels ([@iamsahil1910](https://github.com/iamsahil1910))
 
 
 ## Development
