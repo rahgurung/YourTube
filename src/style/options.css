@@ -1,13 +1,11 @@
 body {
-    margin: 14px 17px;
-    /* Chrome default, match for Firefox  */
     font-family: sans-serif;
     width: 96%;
     text-align: center;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: no-repeat center center fixed;
+    background: linear-gradient(315deg, #42378f 0%, #ffa7ac 74%) no-repeat center center fixed;
 }
 
 .options-form-div {
@@ -19,12 +17,6 @@ body {
     border-radius: 10px;
 }
 
-#features-placeholder {
-    text-align: left;
-}
-
-/* Increase spacing between sections  */
-
 h2 ~ h2,
 form ~ form {
     margin-top: 2em;
@@ -34,7 +26,19 @@ h2 {
     font-size: 35px;
 }
 
+.options-form-div section {
+    text-align: left;
+}
+
 .hidden-feature {
     display: none;
     opacity: 0.5;
+    margin: 14px 17px;
+    font-family: sans-serif;
+    width: 96%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: no-repeat center center fixed;
 }
