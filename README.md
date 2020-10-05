@@ -3,6 +3,9 @@
 <p align="center">
 <img src="https://github.com/gurrrung/YourTube/workflows/YourTube/badge.svg" align="center">
 </p>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/30543444/95109474-41f5a200-075a-11eb-937a-70a9fa85b447.gif" align="center">
+</p>
 
 ## Introduction
 
