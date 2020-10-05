@@ -19,7 +19,7 @@ Coming Soon
 ## Highlights
 GENERAL
 - Keep the sidebar collapsed by default ([@gurrrung](https://github.com/gurrrung))
-- Hide boosted videos in search results ([@iamsahil1910](https://github.com/iamsahil1910))
+- Hide boosted videos in search results ([@gurrrung](https://github.com/gurrrung))
 
 VIDEO
 - Make sure that the AutoPlay is disabled by default always ([@gurrrung](https://github.com/gurrrung))
@@ -53,7 +53,5 @@ npm run build
 Both commands will create a `dist/` directory, it will contain the built files that should be loaded into the browser or packed.
 
 ## Contributing
-
-### Note: We can accept outside contributors only after 5 Oct as this project is being submitted to a hackathon.
 
 Contributions are welcome, feel free to create an issue with your feature idea or just resolve any available issues. The guide for creating a new feature is available [here](https://github.com/gurrrung/YourTube/blob/master/CONTRIBUTING.md).
