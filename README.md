@@ -17,7 +17,7 @@ The truth is YouTube is designed to make anyone binge-watch it all day. We want 
 
 ## Installation
 
-Coming Soon
+[Chrome Web Store](https://chrome.google.com/webstore/detail/yourtube/bepnbjanekhidnggbihpgmajjfgicobk)
 
 ## Highlights
 GENERAL
