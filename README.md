@@ -1,6 +1,9 @@
 <p align="center"><img src="https://www.flaticon.com/svg/static/icons/svg/3039/3039386.svg" align="center" width="175"></p>
 <h1 align="center">YourTube</h1>
 <p align="center">
+<a href="https://www.producthunt.com/posts/yourtube?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-yourtube" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=269637&theme=dark" alt="YourTube - YouTube should be productive | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+</p>
+<p align="center">
 <img src="https://github.com/gurrrung/YourTube/workflows/YourTube/badge.svg" align="center">
 </p>
 <p align="center">
