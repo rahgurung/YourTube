@@ -4,6 +4,7 @@
 <a href="https://www.producthunt.com/posts/yourtube?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-yourtube" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=269637&theme=dark" alt="YourTube - YouTube should be productive | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 </p>
 <p align="center">
+<img src="https://img.shields.io/chrome-web-store/users/bepnbjanekhidnggbihpgmajjfgicobk" align="center">
 <img src="https://github.com/gurrrung/YourTube/workflows/YourTube/badge.svg" align="center">
 </p>
 <p align="center">
