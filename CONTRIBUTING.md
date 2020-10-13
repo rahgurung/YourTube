@@ -7,6 +7,7 @@ This project uses Webpack to build the project and create a dist folder with the
 1) Add the feature to the object in `src/features/index.js`.
 2) Create a file in `src/features` folder with your feature logic.
 3) In `src/content.js`, enable the feature with suitable settings.
+4) Add the feature in `README.md` and credit yourself.
 
 ## Workflow
 1) Fork the repo.
