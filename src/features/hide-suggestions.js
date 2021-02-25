@@ -1,7 +1,6 @@
 import elementReady from 'element-ready';
 
 export default async function () {
-
     // Let 'loader' be ready
     await elementReady('ytd-continuation-item-renderer.style-scope.ytd-item-section-renderer');
     // Let video recommendations be ready
