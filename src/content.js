@@ -36,7 +36,6 @@ function onDomReady() {
         enableFeature(features.hideLikes);
         enableFeature(features.hideComments);
         enableFeature(features.expandDescription);
-        enableFeature(features.hideAutoplay);
         enableFeature(features.hideSuggestions);
     });
 }

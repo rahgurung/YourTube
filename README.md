@@ -29,8 +29,6 @@ GENERAL
 - Hide boosted videos in search results ([@gurrrung](https://github.com/gurrrung))
 
 VIDEO
-- Make sure that the AutoPlay is disabled by default always ([@gurrrung](https://github.com/gurrrung))
-- Hide AutoPlay button ([@gurrrung](https://github.com/gurrrung))
 - Hide all suggestions ([@iamsahil1910](https://github.com/iamsahil1910))
 - Hide likes ([@gurrrung](https://github.com/gurrrung))
 - Hide comments ([@iamsahil1910](https://github.com/iamsahil1910))
