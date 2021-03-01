@@ -15,6 +15,7 @@ export const features = {
         id: 'feature-hide-likes',
         category: 'video',
         label: 'Hide the number of likes',
+        enabledByDefault: false,
         fn: require('./hide-likes').default
     },
     hideComments: {
