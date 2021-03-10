@@ -5,6 +5,7 @@
 </p>
 <p align="center">
 <img src="https://img.shields.io/chrome-web-store/users/bepnbjanekhidnggbihpgmajjfgicobk" align="center">
+<img src="https://img.shields.io/chrome-web-store/rating/bepnbjanekhidnggbihpgmajjfgicobk" align="center">
 <img src="https://github.com/gurrrung/YourTube/workflows/YourTube/badge.svg" align="center">
 </p>
 <p align="center">
