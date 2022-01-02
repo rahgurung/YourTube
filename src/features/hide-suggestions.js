@@ -14,7 +14,7 @@ export default async function () {
     // simple video recommendations
 
     // Hide them
-    $('ytd-continuation-item-renderer.style-scope.ytd-item-section-renderer').hide();
+    $('ytd-watch-next-secondary-results-renderer ytd-continuation-item-renderer.style-scope.ytd-item-section-renderer').hide();
     $('ytd-compact-video-renderer.style-scope.ytd-item-section-renderer').hide();
     $('ytd-compact-movie-renderer.style-scope.ytd-item-section-renderer').hide();
     $('yt-related-chip-cloud-renderer.style-scope.ytd-watch-next-secondary-results-renderer').hide();
