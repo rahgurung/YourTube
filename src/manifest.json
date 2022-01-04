@@ -7,7 +7,6 @@
     "minimum_chrome_version": "62",
     "permissions": [
         "storage",
-        "activeTab",
         "https://www.youtube.com/*"
     ],
     "icons": {
