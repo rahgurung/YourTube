@@ -3,10 +3,12 @@
     "version": "0.2.1",
     "description": "Youtube should be productive",
     "homepage_url": "https://github.com/gurrrung/YourTube.git",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "minimum_chrome_version": "62",
     "permissions": [
-        "storage",
+        "storage"
+    ],
+    "host_permissions": [
         "https://www.youtube.com/*"
     ],
     "icons": {
@@ -14,10 +16,7 @@
     },
     "options_page": "options.html",
     "background": {
-        "scripts": [
-            "browser-polyfill.min.js",
-            "background.js"
-        ]
+        "service_worker": "background.js"
     },
     "content_scripts": [
         {
@@ -34,9 +33,12 @@
                 "style/yourtube.css"
             ]
         }
-    ], 
-    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
-    "browser_action": {
+    ],
+    "web_accessible_resources": [{
+        "resources": ["style/*", "*.js"],
+        "matches": ["https://www.youtube.com/*"]
+    }],
+    "action": {
         "default_title": "YourTube",
         "default_popup": "popup.html"
       }
