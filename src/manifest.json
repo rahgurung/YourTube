@@ -4,7 +4,7 @@
     "description": "Youtube should be productive",
     "homepage_url": "https://github.com/gurrrung/YourTube.git",
     "manifest_version": 3,
-    "minimum_chrome_version": "62",
+    "minimum_chrome_version": "88",
     "permissions": [
         "storage"
     ],
@@ -41,5 +41,5 @@
     "action": {
         "default_title": "YourTube",
         "default_popup": "popup.html"
-      }
+    }
 }
