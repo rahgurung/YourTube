@@ -23,7 +23,10 @@ module.exports = {
             }
         ]
     },
-    devtool: 'eval-cheap-module-source-map',
+    optimization: {
+        minimize: true
+    },
+    devtool: process.env.NODE_ENV === 'production' ? false : 'inline-source-map',
     plugins: [
         new SizePlugin(),
         new CopyWebpackPlugin([
